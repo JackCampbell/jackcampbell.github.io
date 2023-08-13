@@ -6,4 +6,4 @@ Together with Lecturer [Dr. Ünal HAYTA](https://www.researchgate.net/profile/Ue
 
 
 Finding the red note and autopilot.
-![Test](assets/vega.mov)
+![Test](assets/vega-1.jpg)
