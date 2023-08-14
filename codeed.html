@@ -13,64 +13,82 @@
 </style>
 </head>
 <body>
-<h1 id="codeed">CodeEd</h1>
-<p>It is an IDE I designed for developing applications and units in C/C++, Python and Javascript environments.</p>
-<ul>
-<li>Low resource consumption and simple to use.</li>
-<li>Indexing and serializing C/C++ files</li>
-<li>DICOM, STL and PDB (Protein Data Bank) file support.</li>
-<li>Visual UI designs in wxWidgets environment</li>
-<li>GLSL shader support.</li>
-<li>CMake support.</li>
-<li>Makefile support</li>
-<li>LSP (Language Server Protocol) support.</li>
-</ul>
-<p>I am actively using it in many projects.</p>
-<style>
-    img { width: 600px; }
-</style>
 
+<h1 id="codeed"><img src="assets/codeed.svg" width="24px" height="24px"/> CodeEd</h1>
+<p><img src="assets/codeed-s.png" alt="CodeEd"></p>
+<p>It is an IDE designed for developing applications and units in C/C++ environments. It is being developed from 2020, taking as an example of low power consumption and simple use.</p>
+<blockquote>
+<p>B.Firat.OZDEMIR<br>Software Engineer</p>
+<p>I am actively using it in many projects.</p>
+</blockquote>
+<h2 id="c-c-tools">C/C++ Tools</h2>
+<p>The CodeEd application provides a number of features in the C/C++ environment.</p>
+<h4 id="auto-complete">Auto Complete</h4>
+<p>Detailed Description Code completion involves taking an (incomplete) source file, along with knowledge of where the user is actively editing that file, and suggesting syntactically- and semantically-valid constructs that the user might want to use at that particular point in the source code.</p>
+<h4 id="code-tip">Code Tip</h4>
+<p>It ensures that the functions in the source files in the project are called correctly and the default arguments are displayed.</p>
+<h4 id="diagnostics">Diagnostics</h4>
+<p>It notifies the software developer of errors or warnings that may be made during operation. It can be displayed as a list with the diagnosis panel. This feature can be changed in the application settings.</p>
 <table>
 <thead>
 <tr>
-<th>Auto Complete</th>
-<th>Call Tip</th>
-<th>Diagnostics</th>
+<th><img src="assets/codeed-2.png" alt="1"></th>
+<th><img src="assets/codeed-1.png" alt="1"></th>
+<th><img src="assets/codeed-3.png" alt="1"></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><img src="assets/codeed-1.png" alt="1"></td>
-<td><img src="assets/codeed-2.png" alt="1"></td>
-<td><img src="assets/codeed-5.png" alt="1"></td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<h2 id="debug">Debug</h2>
-<p>Debug support for error checking on your compiled code.</p>
+<h4 id="compile-command">Compile Command</h4>
+<p>A build database holds all the information used to compile files in a project. For each file in the database, the working directory or the command line used for the compiler call can be queried. It allows transforming the source files in the project. It ensures that the equipment works correctly on the project.</p>
+<h4 id="serialize">Serialize</h4>
+<p>By serializing the system files associated with your projects, it enables the source files to be translated more quickly. You need to add the Precompiled header file in your project and activate the application settings. It re-serializes the precompiled header file every time it is changed.</p>
+<h4 id="indexer">Indexer</h4>
+<p>The project navigates the source files found and stores the found classes and functions in a database environment. this storage data is used by spotlight dialog and new function declaration. The source code you are working on is check again during document save. This check again during document save provide at new function declare. It can be changed in the application settings dialog.</p>
+<h4 id="spotlight">Spotlight</h4>
+<p>It creates a database by collecting all the collections on the project. Allows you to search for functions, classes, and files while running.</p>
+<table>
+<thead>
+<tr>
+<th><img src="assets/codeed-e.png" alt="1"></th>
+<th><img src="assets/codeed-d.png" alt="1"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="code-format">Code-Format</h4>
+<p>Code-formatter is a tool that automatically formats C/C++ code so developers don&#39;t have to worry about style issues during code reviews. It is highly recommended that you format your modified C++ code before opening pull requests, this will save you and your reviewers time. The CodeEd implementation uses the clang-formatter API. There are certain formats in the settings dialog or a custom format can be created by reading the &#39;.clang-format&#39; file within the project.</p>
+<h4 id="debug">Debug</h4>
+<p>In general, a debugger is a computer program that helps test and debug other programs. LLDB and GDB are two debuggers. CodeEd includes LLDB API.</p>
+<p><img src="assets/codeed-5.png" alt="1"></p>
+<p>It offers some of the capabilities that this debugger will give you over trace messages in the code:</p>
 <ul>
-<li>Call stack (Frame/Thread)</li>
-<li>Watchs</li>
-<li>Breakpoints</li>
-</ul>
-<p><img src="assets/codeed-4.png" alt="1"></p>
-<h2 id="builder-form">Builder Form</h2>
-<p>Desktop application development and user-friendly form design support.</p>
-<p><img src="assets/codeed-3.png" alt="1"></p>
-<h2 id="other-support">Other Support</h2>
-<ul>
-<li>Image Processing</li>
-<li>Medical Monitor</li>
-<li>Scientist</li>
-<li>Database</li>
-<li>Hex Editor</li>
+<li>It displays the call stack at any time, giving you a context for your current stack frame.</li>
+<li>Change variable values while the program is running</li>
+<li>Edit and continue - ability to modify code as it works and see the results of the change immediately</li>
+<li>Being able to monitor variables, see when they change</li>
+<li>You can skip or repeat code sections to see how the code will perform. This allows you to test theoretical changes before making them.</li>
+<li>Inspect memory content in real time</li>
+<li>Alerts you when certain exceptions are thrown, even if they are being handled by the application.</li>
+<li>Conditional interrupt; stopping the application only in exceptional cases to allow you to analyze the stack and variables.</li>
+<li>Display thread context in multi-threaded applications, which can be difficult to achieve with tracing (because traces from different threads will be interspersed in the output).</li>
+<li>In summary, print statements are (usually) static, and if your original statements are not verbose enough, you&#39;ll need to recompile them to get additional information. The IDE removes this static barrier, giving you a dynamic toolset at your fingertips.</li>
+<li>When I first started coding I didn&#39;t realize how important debuggers were and thought I could accomplish anything with tracing (agreed, this was on unix and the debugger was GDB). But once you learn how to properly use a graphical debugger, you don&#39;t want to go back to printing expressions.</li>
 </ul>
 <table>
 <thead>
 <tr>
-<th></th>
-<th></th>
-<th></th>
+<th>Breakpoints</th>
+<th>Call Stack</th>
+<th>Watch</th>
 </tr>
 </thead>
 <tbody>
@@ -79,12 +97,100 @@
 <td><img src="assets/codeed-7.png" alt="1"></td>
 <td><img src="assets/codeed-8.png" alt="1"></td>
 </tr>
+</tbody>
+</table>
+<h2 id="process">Process</h2>
+<p>It allows you to test the project you are working on after it is compiled. This test process is provided by the user specifying the configuration. With the configuration arguments and macro the specified target remains the same even when the file is moved.</p>
+<table>
+<thead>
 <tr>
-<td><img src="assets/codeed-9.png" alt="1"></td>
+<th>Process Panel</th>
+<th>Config Dialog</th>
+<th>Macro Panel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
 <td><img src="assets/codeed-a.png" alt="1"></td>
 <td><img src="assets/codeed-b.png" alt="1"></td>
+<td><img src="assets/codeed-c.png" alt="1"></td>
 </tr>
 </tbody>
 </table>
+<h2 id="builder-form">Builder Form</h2>
+<p>application development and user-friendly form desktop design support. It uses the wxWidgets environment.</p>
+<table>
+<thead>
+<tr>
+<th>Resource Edit</th>
+<th>Design Edit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="assets/codeed-9.png" alt="1"></td>
+<td><img src="assets/codeed-f.png" alt="1"></td>
+</tr>
+</tbody>
+</table>
+<h1 id="javascript-and-python-support">Javascript and Python Support</h1>
+<p>Ancillary equipment for developing code in Javascript and Python projects.</p>
+<table>
+<thead>
+<tr>
+<th>Javascript</th>
+<th>Python</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="assets/codeed-g.png" alt="1"></td>
+<td><img src="assets/codeed-i.png" alt="1"></td>
+</tr>
+<tr>
+<td><img src="assets/codeed-h.png" alt="1"></td>
+<td><img src="assets/codeed-j.png" alt="1"></td>
+</tr>
+</tbody>
+</table>
+<h1 id="cmake-support">CMake Support</h1>
+<p>It allows you to compile in a multi-platform environment with CMake support.</p>
+<p><img src="assets/codeed-k.png" alt="1"></p>
+<h1 id="document">Document</h1>
+<p>Markdown format support for documentation in your project.</p>
+<p><img src="assets/codeed-l.png" alt="1"></p>
+<h2 id="other-support">Other Support</h2>
+<ul>
+<li>Image Editor</li>
+<li>Image Processing</li>
+<li>Medical Monitor</li>
+<li>Scientist</li>
+<li>Database</li>
+<li>Hex Editor</li>
+<li>GLSL shader support.</li>
+<li>Language Server Protocol (LSP) support. (experimental)</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th><img src="assets/codeed-m.png" alt="1"></th>
+<th><img src="assets/codeed-n.png" alt="1"></th>
+<th><img src="assets/codeed-o.png" alt="1"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="assets/codeed-p.png" alt="1"></td>
+<td><img src="assets/codeed-q.png" alt="1"></td>
+<td><img src="assets/codeed-r.png" alt="1"></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<blockquote>
+<p>© 2021. B. Firat OZDEMIR. All rights reserved.</p>
+</blockquote>
+
+
 </body>
 </html>
