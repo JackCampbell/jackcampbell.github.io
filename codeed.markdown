@@ -13,7 +13,7 @@
 It is an IDE designed for developing applications and units in C/C++ environments. It is being developed from 2020, taking as an example of low power consumption and simple use.
 
 > B.Firat.OZDEMIR  
-> Software Engineer
+> Software Engineer  
 > b.firat.ozdemir@gmail.com
 
 > I am actively using it in many projects.
@@ -34,8 +34,10 @@ It ensures that the functions in the source files in the project are called corr
 
 It notifies the software developer of errors or warnings that may be made during operation. It can be displayed as a list with the diagnosis panel. This feature can be changed in the application settings.
 
+| Call Tip | Auto Complete | Diagnostic |
+|-|-|-| 
 | ![1](assets/codeed-2.png) | ![1](assets/codeed-1.png) | ![1](assets/codeed-3.png) |
-|-|-|-|
+
 
 #### Compile Command
 
@@ -53,8 +55,9 @@ The project navigates the source files found and stores the found classes and fu
 
 It creates a database by collecting all the collections on the project. Allows you to search for functions, classes, and files while running.
 
-| ![1](assets/codeed-e.png) | ![1](assets/codeed-d.png) |
+| Symbols | Files |
 |-|-|
+| ![1](assets/codeed-d.png) | ![1](assets/codeed-e.png) |
 
 #### Code-Format
 
