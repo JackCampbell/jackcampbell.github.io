@@ -7,15 +7,15 @@ It is designed as an advanced graphics engine.
 * Dynamic per-pixel lighting (ARB)
 * Shadow Volume
 * Interactive texture shadows (Forward Shading/Deferred Shading)
-* Animation (Joint)
+* Animation
 * Material, Model, Sound ve Particle Effect
 * User interactive graphical interface (GUI)
 * Simple physics engine
 * Virtual Texture and LOD system on surfaces with high texture
-* Radiant map editor and BSP(Binary Space Partition) compiler
-* Physical acceleration with SSE instruction set
+* Map editor and BSP(Binary Space Partition) compiler
 * Platform support (Win32, SDL2, GLFW)
 * GPU Driver (OpenGL / GLES / DirectX)
+* Physical acceleration with SSE instruction set
 
 This engine is designed as a virtual reality and simulation usage area.
 
