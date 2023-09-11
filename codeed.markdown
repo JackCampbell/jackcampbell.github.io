@@ -68,8 +68,6 @@ Code-formatter is a tool that automatically formats C/C++ code so developers don
 
 In general, a debugger is a computer program that helps test and debug other programs. LLDB and GDB are two debuggers. CodeEd includes LLDB API.
 
-![1](assets/codeed-5.png)
-
 It offers some of the capabilities that this debugger will give you over trace messages in the code:
 * It displays the call stack at any time, giving you a context for your current stack frame.
 * Change variable values while the program is running
@@ -83,9 +81,12 @@ It offers some of the capabilities that this debugger will give you over trace m
 * In summary, print statements are (usually) static, and if your original statements are not verbose enough, you'll need to recompile them to get additional information. The IDE removes this static barrier, giving you a dynamic toolset at your fingertips.
 * When I first started coding I didn't realize how important debuggers were and thought I could accomplish anything with tracing (agreed, this was on unix and the debugger was GDB). But once you learn how to properly use a graphical debugger, you don't want to go back to printing expressions.
 
-| Breakpoints | Call Stack | Watch |
-|-|-|-|
-| ![1](assets/codeed-6.png) | ![1](assets/codeed-7.png) | ![1](assets/codeed-8.png) |
+| Debug Point | Call Stack |
+|-|-|
+| ![1](assets/codeed-5.png) | ![1](assets/codeed-7.png) |
+| Breakpoints | Watchs |
+| ![1](assets/codeed-6.png) | ![1](assets/codeed-8.png) |
+
 
 ## Process
 
