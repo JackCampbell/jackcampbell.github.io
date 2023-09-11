@@ -12,4 +12,5 @@ Restricted area
 
 ![Image](assets/eric.jpg)
 
-
+---
+> © 2021. B. Firat OZDEMIR. All rights reserved.

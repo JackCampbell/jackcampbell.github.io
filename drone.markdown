@@ -7,3 +7,6 @@ Together with Lecturer [Dr. Ünal HAYTA](https://www.researchgate.net/profile/Ue
 
 Finding the red note and autopilot.
 ![Test](assets/vega-1.jpg)
+
+---
+> © 2021. B. Firat OZDEMIR. All rights reserved.

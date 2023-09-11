@@ -4,10 +4,11 @@ Together with [Prof. Dr. İbrahim Erkutlu](http://ibrahimerkutlu.com/Default.asp
 > Gaziantep University, Neurosurgery
 
 
-
 Explosions found in the head after light is given to the eye.
 
 ![EEG Monitor](assets/eeg-1.png)
 
+---
+> © 2021. B. Firat OZDEMIR. All rights reserved.
 
 

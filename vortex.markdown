@@ -20,3 +20,6 @@ It is designed as an advanced graphics engine.
 This engine is designed as a virtual reality and simulation usage area.
 
 ![Vortex Engine](assets/vortex-1.png)
+
+---
+> © 2021. B. Firat OZDEMIR. All rights reserved.

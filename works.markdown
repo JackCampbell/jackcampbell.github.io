@@ -13,7 +13,10 @@ All the work I have done and am doing until 2013. I will add works again and aga
 * Aviation Systems
 * Virtualize and Emulators
 * Equipment and Graphics Software.
-* B. Fırat ÖZDEMİR Jack Campbell
 
 [Private Repo](https://github.com/JackCampbell/Works)
+
+---
+> © 2021. B. Firat OZDEMIR. All rights reserved.
+
 
