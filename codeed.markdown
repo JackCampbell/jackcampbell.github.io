@@ -14,7 +14,7 @@ It is an IDE designed for developing applications and units in C/C++ environment
 
 > B.Firat.OZDEMIR  
 > Software Engineer
-
+> b.firat.ozdemir@gmail.com
 
 > I am actively using it in many projects.
 

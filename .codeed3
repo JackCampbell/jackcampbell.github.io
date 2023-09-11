@@ -2,16 +2,24 @@
 <appconfig>
   <configs/>
   <macros>
+    <variable key="CPU_ARCH_NAME" value="x86_64"/>
+    <variable key="OS_DESCRIPTION" value="macOS Ventura Version 13.4 (Build 22F66)"/>
+    <variable key="BUILD_PATH" value="{{PROJECT_PATH}}/{{BUILD_DIR_NAME}}"/>
+    <variable key="GET_CWD" value="/Users/jack/Desktop/jackcampbell.github.io"/>
+    <variable key="CPU_COUNT" value="6"/>
+    <variable key="HOST_NAME" value="Firat-iMac"/>
     <variable key="BUILD_CONFIG" value="Debug"/>
     <variable key="BUILD_DIR_NAME" value="build"/>
     <variable key="RESOURCE_SOURCE" value="{{FILE_PATH}}/{{FILE_BASE}}.cpp"/>
     <variable key="APP_NAME" value="CodeEd"/>
     <variable key="PROJECT_PATH" value="/Users/jack/Desktop/jackcampbell.github.io"/>
+    <variable key="USER_NAME" value="Fırat ÖZDEMİR"/>
     <variable key="BUILD_TARGET" value="all"/>
     <variable key="DESIGN_UI_FILE" value="{{FILE_PATH}}/{{FILE_BASE}}Ui.h"/>
     <variable key="RESOURCE_HEADER" value="{{FILE_PATH}}/{{FILE_BASE}}.h"/>
+    <variable key="EMAIL_ADDRESS" value="jack@Firat-iMac.local"/>
   </macros>
   <cmake cmake_path="/usr/local/bin/cmake" cache_args="" cache_config="Debug" cache_path="build" clean_target="clean" build_target="all" build_config="Debug" build_parallel="6" verbose="0"/>
-  <clang compile_args="--driver-mode=g++;-mmacosx-version-min=10.15;c++-header;-I/usr/local/include;-stdlib=libc++" match_completion="0" fixit_completion="1" not_accessible_completion="1" not_available_completion="1" format_auto="1" format_type="0" enable_indexer="1" show_args="0" enable_serialize="1" diagnostic_list="0" diagnostic_auto="1" precompiled_header="{{PROJECT_PATH}}/Precompiled.h" resource_dir="" spotlight_count="64" cursor_annotation="0" diagnostic_annotation="1"/>
+  <clang compile_args="--driver-mode=g++;-mmacosx-version-min=10.15;c++-header;-I/usr/local/include;-stdlib=libc++" match_completion="0" fixit_completion="1" not_accessible_completion="1" not_available_completion="1" format_auto="1" format_type="0" enable_indexer="1" show_args="0" enable_serialize="1" diagnostic_list="0" diagnostic_auto="1" precompiled_header="{{PROJECT_PATH}}/Precompiled.h" resource_dir="" spotlight_count="64" cursor_annotation="0" diagnostic_annotation="1" cppv1_include="0"/>
   <editor grammer="1" visible_hide_files="0" enable_multi_comment="0" workspace_path="/Users/jack/Desktop/" lsp_java="" lsp_csquare="" nodejs_path="" python_path=""/>
 </appconfig>

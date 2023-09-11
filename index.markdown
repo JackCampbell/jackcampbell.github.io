@@ -5,5 +5,11 @@
 	}
 	img { max-width: 400px; }
 </style>
-<p>restricted area</p>
-<img src="assets/eric.jpg"/>
+
+# OOOPPPSSS
+
+Restricted area
+
+![Image](assets/eric.jpg)
+
+
