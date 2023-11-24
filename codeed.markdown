@@ -6,7 +6,7 @@
 	img[alt='icon'] { width: 64px; height: 64px; }
 	img[alt='app'] { min-height: 300px; }
 	img[alt='giphy'] {
-		max-height: 200px;
+		max-height: 210px;
 		display: inline-block;
 		margin-right: 16px;
 		border: 1px solid #c4c4c4;
@@ -16,6 +16,9 @@
 	}
 	img[alt='frame'] {
 		max-height: 360px;
+	}
+	img[alt='frame2'] {
+		max-height: 300px;
 	}
 </style>
 
@@ -148,7 +151,7 @@ Provides support for projects with Python3 runtime environment. Provides autocom
 * Language Server Protocol (LSP) support. (experimental)
 
 
-![frame](assets/code-sqlite3.png) ![frame](assets/code-hex.png)
+![frame2](assets/code-sqlite3.png) ![frame2](assets/code-hex.png)
 
 ## Plans / TODO
 
