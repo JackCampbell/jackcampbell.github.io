@@ -3,62 +3,56 @@
 	* {
 		font-family: Ubuntu, "times new roman", times, roman, serif;
 	}
-	img[alt='icon'] { max-width: 64px; }
-	.image-row {
-		display: flex;
-		flex-flow: row nowrap;
+	img[alt='icon'] { width: 64px; height: 64px; }
+	img[alt='app'] { min-height: 300px; }
+	img[alt='giphy'] {
+		max-height: 220px;
+		display: inline-block;
+		margin-right: 16px;
+		border: 1px solid #c4c4c4;
 	}
-	.image-row > * {
-		display:inline-block;
-		max-width: 400px;
-		margin-left: 16px;
+	img[alt='dialog'] {
+		max-height: 200px;
+	}
+	img[alt='frame'] {
+		max-height: 360px;
 	}
 </style>
 
 
 # CodeEd
 
-![icon](assets/codeed-icon.svg) 
+![icon](assets/codeed.png)
 
-This IDE is based on powerful code editor and developer tools. It was originally designed for application and unit development. It has been developed according to the needs since 2020 based on low power consumption and simple use. _It is actively used in many projects_.
+CodeEd is based on powerful code editor and developer tools. It was originally designed for application and unit development. It has been developed according to the needs since 2020 based on low power consumption and simple use. _It is actively used in many projects_.
 
+![app](assets/code-main2.png)
 
 
 ## C/C++ Tools
 
-The CodeEd application provides a number of features in the C/C++ environment.
+This IDE application provides a number of features in the C/C++ environment.
 
 ### Auto Complete
 
 Code completion involves taking an (incomplete) source file, along with knowledge of where the user is actively editing that file, and suggesting syntactically and semantically-valid constructs that the user might want to use at that particular point in the source code.
 
-<div class="image-row">
 
-![autocomplete](assets/code-autocomplete1.gif)
+![giphy](assets/code-autocomplete1.gif)
+![giphy](assets/code-autocomplete2.gif)
 
-![autocomplete](assets/code-autocomplete2.gif)
-
-</div>
 
 ### Code Tip
 
 It ensures that the functions in the source files in the project are called correctly and the default arguments are displayed. After an unclosed parenthesis for a function, open a small window with function parameter hints.
 
-<div class="image-row">
-
-![calltip](assets/code-calltip1.gif)
-
-</div>
+![giphy](assets/code-calltip1.gif)
 
 ### Diagnostics
 
 It notifies the software developer of errors or warnings that may be made during operation. It can be displayed as a list with the diagnosis panel. This feature can be changed in the application settings.
 
-<div class="image-row">
-
-![diagnostic](assets/code-diagnostic1.gif)
-
-</div>
+![giphy](assets/code-diagnostic1.gif)
 
 ### Build Command Database
 
@@ -76,31 +70,20 @@ It navigates through the source files in the project and stores the classes and 
 
 Creates a database by collecting all collections on the project. It allows you to search for functions, classes and files as you work.
 
-<div class="image-row">
-
-![spotlight](assets/code-spotlight.png)
-
-</div>
+![dialog](assets/code-spotlight.png)
 
 ### Code-Format
 
 Code-formatter is a tool that automatically formats C/C++ code so that developers don't have to worry about style issues during code reviews. Formatting your C/C++ code is highly recommended, it will save you and your reviewers time. The CodeEd application uses the clang-formatter API. Specific formats are available in the settings dialog, or a custom format can be created by reading the `.clang-format` file within the project.
 
-<div class="image-row">
-
-![code-format](assets/code-format.gif)
-
-</div>
+![giphy](assets/code-format.gif)
 
 ### Debug
 
 In general, a debugger is a computer program that helps test and debug other programs. LLDB and GDB are two debuggers. CodeEd includes LLDB API.
 
-<div class="image-row">
+![giphy](assets/code-debug.gif)
 
-![debug](assets/code-debug.gif)
-
-</div>
 
 It offers some of the capabilities that this debugger will give you over trace messages in the code:
 
@@ -116,80 +99,47 @@ It offers some of the capabilities that this debugger will give you over trace m
 * In summary, print statements are (usually) static, and if your original statements are not verbose enough, you’ll need to recompile them to get additional information. The IDE removes this static barrier, giving you a dynamic toolset at your fingertips.
 * When I first started coding I didn’t realize how important debuggers were and thought I could accomplish anything with tracing (agreed, this was on unix and the debugger was GDB). But once you learn how to properly use a graphical debugger, you don’t want to go back to printing expressions.
 
-
-<div class="image-row">
-
-![debug](assets/code-debug2.png)
-
-![debug](assets/code-watch.png)
-
-![debug](assets/code-breakpoints.png)
-
-</div>
+![dialog](assets/code-debug2.png)
+![dialog](assets/code-watch.png)
+![dialog](assets/code-breakpoints.png)
 
 ## Process
 
 It allows you to test the project you are working on after it has been compiled. This test is prompted by the user specifying the configuration. The configuration arguments and the target file specified by the macro remain the same even when the file is moved.
 
-<div class="image-row">
+![giphy](assets/code-process.gif)
 
-![process](assets/code-process.gif)
-
-</div>
 
 ## Design And Resource
 
 It supports application development and user-friendly form desktop design with the WxWidgets environment. This IDE was developed using this equipment.
 
-<div class="image-row">
-
-![resource](assets/code-resource.png)
-
-![design](assets/code-design.png)
-
-</div>
+![frame](assets/code-resource.png)
+![frame](assets/code-design.png)
 
 ## CMake Support
 
 CMake support allows you to build, automate, test, package and install software in a multi-platform environment.
 
-<div class="image-row">
-
-![cmake](assets/code-cmake.png)
-
-</div>
+![frame](assets/code-cmake.png)
 
 ## Javascript
 
 Provides support for nodejs projects with a JavaScript runtime environment. Provides autocompletion and function signature at coding time.
 
-<div class="image-row">
-
-![node](assets/code-node-autocompletion.gif)
-
-![node](assets/code-node-calltip.gif)
-
-</div>
+![giphy](assets/code-node-autocompletion.gif)
+![giphy](assets/code-node-calltip.gif)
 
 ## Python
 
 Provides support for projects with Python3 runtime environment. Provides autocompletion and function signature at coding time.
 
-<div class="image-row">
-
-![python](assets/code-python-autocompletion.gif)
-
-![python](assets/code-python-calltip.gif)
-
-</div>
+![giphy](assets/code-python-autocompletion.gif)
+![giphy](assets/code-python-calltip.gif)
 
 ## Documents
 
-<div class="image-row">
-
-![documents](assets/code-markdown.gif)
-
-</div>
+![giphy](assets/code-markdown.gif)
 
 * `Markdown` format support for documentation in your project.
 * Support for `Sqlite3` format for database analysis in your project.
@@ -197,13 +147,8 @@ Provides support for projects with Python3 runtime environment. Provides autocom
 * `Hex Edit` support for allowing manipulation of the underlying binary data that make up a computer file.
 * Language Server Protocol (LSP) support. (experimental)
 
-<div class="image-row">
 
-![sqlite](assets/code-sqlite3.png)
-
-![hex](assets/code-hex.png)
-
-</div>
+![frame](assets/code-sqlite3.png) ![frame](assets/code-hex.png)
 
 ## Plans / TODO
 
@@ -211,23 +156,18 @@ Provides support for projects with Python3 runtime environment. Provides autocom
 * Sound Editor
 * Model Editor
 * Image Processing with OpenCV
-* DICOM, STL, PDB file support.
+* DICOM, STL, PDB file support
 * Makefile support
-* Emulator support.
+* Emulator support
 * CSV support and Keras panel
 * GGPT Panel
+* Git Support
 
-<div class="image-row">
 
-![plan](assets/code-dicom.png)
-
-![plan](assets/code-pdb.png)
-
-![plan](assets/code-stl.png)
-
-![plan](assets/code-pdb.png)
-
-</div>
+![frame](assets/code-dicom.png)
+![frame](assets/code-image.png)
+![frame](assets/code-stl.png)
+![frame](assets/code-pdb.png)
 
 # Contact
 
