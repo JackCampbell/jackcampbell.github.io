@@ -6,7 +6,7 @@
 	img[alt='icon'] { width: 64px; height: 64px; }
 	img[alt='app'] { min-height: 300px; }
 	img[alt='giphy'] {
-		max-height: 220px;
+		max-height: 200px;
 		display: inline-block;
 		margin-right: 16px;
 		border: 1px solid #c4c4c4;
