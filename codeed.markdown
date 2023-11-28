@@ -101,6 +101,7 @@ It offers some of the capabilities that this debugger will give you over trace m
 * Display thread context in multi-threaded applications, which can be difficult to achieve with tracing (because traces from different threads will be interspersed in the output).
 * In summary, print statements are (usually) static, and if your original statements are not verbose enough, you’ll need to recompile them to get additional information. The IDE removes this static barrier, giving you a dynamic toolset at your fingertips.
 * When I first started coding I didn’t realize how important debuggers were and thought I could accomplish anything with tracing (agreed, this was on unix and the debugger was GDB). But once you learn how to properly use a graphical debugger, you don’t want to go back to printing expressions.
+* lldb-server provides the server counterpart of the LLVM debugger. The server runs and monitors the debugged program, while the user interfaces with it via a client, either running locally or connecting remotely.
 
 ![dialog](assets/code-debug2.png)
 ![dialog](assets/code-watch.png)
@@ -165,7 +166,6 @@ Provides support for projects with Python3 runtime environment. Provides autocom
 * CSV support and Keras panel
 * GGPT Panel
 * Git Support
-
 
 ![frame](assets/code-dicom.png)
 ![frame](assets/code-image.png)
