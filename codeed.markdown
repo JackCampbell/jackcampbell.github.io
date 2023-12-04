@@ -116,7 +116,7 @@ It allows you to test the project you are working on after it has been compiled.
 
 ## Design And Resource
 
-It supports application development and user-friendly form desktop design with the WxWidgets environment. This IDE was developed using this equipment.
+It supports application development and user-friendly form desktop design with the wxWidgets environment. This IDE was developed using this equipment.
 
 ![frame](assets/code-resource.png)
 ![frame](assets/code-design.png)
@@ -161,6 +161,7 @@ Provides support for projects with Python3 runtime environment. Provides autocom
 * Model Editor
 * Image Processing with OpenCV
 * DICOM, STL, PDB file support
+* GroundControl support
 * Makefile support
 * Emulator support
 * CSV support and Keras panel
@@ -171,6 +172,10 @@ Provides support for projects with Python3 runtime environment. Provides autocom
 ![frame](assets/code-image.png)
 ![frame](assets/code-stl.png)
 ![frame](assets/code-pdb.png)
+
+# License
+
+Move to [here](https://github.com/JackCampbell/CodeEd/blob/master/LICENSE)
 
 # Contact
 

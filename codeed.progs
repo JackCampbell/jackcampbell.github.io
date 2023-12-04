@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <appconfig>
+  <configs>
+    <run name="ShopifyCode" execute="/usr/local/bin/node" work_dir="{{PROJECT_PATH}}" arguments="{{PROJECT_PATH}}/shopify-test.js" post_build="0" save_all="1" parallel="0" clear_last="1" only_debug="0" target=""/>
+  </configs>
   <cvars>
     <cvar key="design_realtime" value="0"/>
     <cvar key="find_filter" value=""/>
@@ -40,28 +43,25 @@
     <cvar key="editor_grammer" value="1"/>
     <cvar key="multi_comment" value="0"/>
   </cvars>
-  <configs>
-    <run name="ShopifyCode" execute="/usr/local/bin/node" work_dir="{{PROJECT_PATH}}" arguments="{{PROJECT_PATH}}/shopify-test.js" post_build="0" save_all="1" parallel="0" clear_last="1" only_debug="0" target=""/>
-  </configs>
   <macros>
     <variable key="HOME_DIR" value="/Users/jack"/>
     <variable key="CPU_ARCH_NAME" value="x86_64"/>
-    <variable key="OS_DESCRIPTION" value="macOS Catalina Version 10.15.7 (Build 19H2026)"/>
+    <variable key="OS_DESCRIPTION" value="macOS Sonoma Version 14.1.1 (Build 23B81)"/>
     <variable key="BUILD_PATH" value="{{PROJECT_PATH}}/{{BUILD_DIR_NAME}}"/>
     <variable key="GET_CWD" value="/Applications"/>
-    <variable key="CPU_COUNT" value="8"/>
-    <variable key="HOST_NAME" value="Naile-MacBook-Pro"/>
+    <variable key="CPU_COUNT" value="6"/>
+    <variable key="HOST_NAME" value="Firat-iMac"/>
     <variable key="BUILD_CONFIG" value="Debug"/>
     <variable key="BUILD_DIR_NAME" value="build"/>
     <variable key="RESOURCE_SOURCE" value="{{PROJECT_PATH}}/stubs/{{FILE_BASE}}.cpp"/>
     <variable key="PROJECT_NAME" value="QTest"/>
     <variable key="APP_NAME" value="CodeEd"/>
     <variable key="PROJECT_PATH" value="/Users/jack/Desktop/jackcampbell.github.io"/>
-    <variable key="USER_NAME" value="JackCampbell"/>
+    <variable key="USER_NAME" value="Fırat ÖZDEMİR"/>
     <variable key="BUILD_TARGET" value="all"/>
     <variable key="DESIGN_UI_FILE" value="{{PROJECT_PATH}}/stubs/{{FILE_BASE}}Ui.h"/>
     <variable key="HOST_DEVICE" value="10.10.10.38"/>
     <variable key="RESOURCE_HEADER" value="{{PROJECT_PATH}}/stubs/{{FILE_BASE}}.h"/>
-    <variable key="EMAIL_ADDRESS" value="jack@Naile-MacBook-Pro.local"/>
+    <variable key="EMAIL_ADDRESS" value="jack@Firat-iMac.local"/>
   </macros>
 </appconfig>
