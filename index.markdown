@@ -16,12 +16,12 @@ This site is under construction.
 
 # Projets
 
-* (CodeEd)[./codeed.html]
+* [CodeEd](codeed.html)
 
 # Volunteer work
 
-* (EEG Monitor)(./eeg.html)
-* (Vegadrone)(./drone.html)
+* [EEG Monitor](./eeg.html)
+* [Vegadrone](/drone.html)
 
 ---
 > © 2021. B. Firat OZDEMIR. All rights reserved.
