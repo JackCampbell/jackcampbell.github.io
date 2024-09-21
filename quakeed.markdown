@@ -1,4 +1,4 @@
-# QuakeEd
+# QuakeEd (wxWidgets)
 
 
 I developed an application to maintain the compatibility of the QuakeEd editor used for Quake and Quake 2 games on new platforms. This project will serve as an important tool for modifying classic games and creating new content. By adapting the core features of QuakeEd, such as map editing, texture manipulation, and placing in-game objects, to modern technologies, I aim to reach a broader audience of players and developers.

@@ -22,6 +22,7 @@ This site is under construction.
 * [Vortex](./vortex.html)
 * [Quake Mod](./quakemod.html)
 * [QuakeEd](./quakeed.html)
+* [QERadiant/Q3Radiant](./qeradiant.html)
 
 # Volunteer work
 
