@@ -21,6 +21,7 @@ This site is under construction.
 * [Virtualize](./virtualize.html)
 * [Vortex](./vortex.html)
 * [Quake Mod](./quakemod.html)
+* [QuakeEd](./quakeed.html)
 
 # Volunteer work
 
