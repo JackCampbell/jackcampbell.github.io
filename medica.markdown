@@ -10,11 +10,8 @@ It visualizes data in three dimensions, presenting it in Axial, Coronal and Sagi
 
 ---
 
-B. Firat OZDEMIR - Software Engineer
+| ----------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
+| [E-mail](b.firat.ozdemir@gmail.com) | [Linkedin](https://www.linkedin.com/in/bfiratozdemir/) | [Github](https://github.com/JackCampbell) |
 
-* [E-mail](b.firat.ozdemir@gmail.com)
-* [Linkedin](https://www.linkedin.com/in/bfiratozdemir/)
-* [Github](https://github.com/JackCampbell)
 
----
 > © 2021. B. Firat OZDEMIR. All rights reserved.
