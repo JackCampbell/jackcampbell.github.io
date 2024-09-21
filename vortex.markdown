@@ -23,8 +23,8 @@ This project not only helped me improve my technical skills but also served as a
 
 ---
 
-| ----------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
-| [E-mail](b.firat.ozdemir@gmail.com) | [Linkedin](https://www.linkedin.com/in/bfiratozdemir/) | [Github](https://github.com/JackCampbell) |
+| ---------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
+| [E-mail](mail:b.firat.ozdemir@gmail.com) | [Linkedin](https://www.linkedin.com/in/bfiratozdemir/) | [Github](https://github.com/JackCampbell) |
 
 
 > © 2021. B. Firat OZDEMIR. All rights reserved.

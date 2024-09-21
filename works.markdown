@@ -19,8 +19,8 @@ I am compiling all the work I have done and am currently doing until 2013. As I 
 
 ---
 
-| ----------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
-| [E-mail](b.firat.ozdemir@gmail.com) | [Linkedin](https://www.linkedin.com/in/bfiratozdemir/) | [Github](https://github.com/JackCampbell) |
+| ---------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
+| [E-mail](mail:b.firat.ozdemir@gmail.com) | [Linkedin](https://www.linkedin.com/in/bfiratozdemir/) | [Github](https://github.com/JackCampbell) |
 
 
 > © 2021. B. Firat OZDEMIR. All rights reserved.
