@@ -1,0 +1,22 @@
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+<style>
+	* {
+		font-family: Ubuntu, "times new roman", times, roman, serif;
+	}
+	img { max-width: 400px; }
+</style>
+
+# OOOPPPSSS
+
+![Image](assets/eric.jpg)
+
+---
+
+B. Firat OZDEMIR - Software Engineer
+
+* [E-mail](b.firat.ozdemir@gmail.com)
+* [Linkedin](https://www.linkedin.com/in/bfiratozdemir/)
+* [Github](https://github.com/JackCampbell)
+
+---
+> © 2021. B. Firat OZDEMIR. All rights reserved.

@@ -6,13 +6,22 @@
 	img { max-width: 400px; }
 </style>
 
-# OOOPPPSSS
+# Firat OZDEMIR
 
-Restricted area
+I am compiling all the work I have done and am currently doing until 2013. As I achieve new successes each year, I will continue to add new projects and works to this list. This journey is a path of growth and development for me; each new year brings new opportunities and experiences.
 
-![Image](assets/eric.jpg)
-
-This site is under construction.
+* System Programming
+* Desktop Applications
+* Mobile Applications
+* Games
+* Web Services
+* Embedded and SBC Systems
+* Documentation
+* Medical Monitoring
+* Aviation Systems
+* Virtualization and Emulators
+* Automotive Monitoring
+* Equipment Software
 
 # Projets
 
