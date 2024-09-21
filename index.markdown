@@ -6,8 +6,6 @@
 	img { max-width: 400px; }
 </style>
 
-# Firat OZDEMIR
-
 I am compiling all the work I have done and am currently doing until 2013. As I achieve new successes each year, I will continue to add new projects and works to this list. This journey is a path of growth and development for me; each new year brings new opportunities and experiences.
 
 * System Programming
@@ -28,7 +26,7 @@ I am compiling all the work I have done and am currently doing until 2013. As I 
 * [CodeEd](./codeed.html)
 * [Medica](./medica.html)
 * [Virtualize](./virtualize.html)
-* [Vortex](./vortex.html)
+* [Vortex Engine](./vortex.html)
 * [Quake Mod](./quakemod.html)
 * [QuakeEd](./quakeed.html)
 * [QERadiant/Q3Radiant](./qeradiant.html)
