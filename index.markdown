@@ -12,5 +12,16 @@ Restricted area
 
 ![Image](assets/eric.jpg)
 
+This site is under construction.
+
+# Projets
+
+* (CodeEd)[./codeed.html]
+
+# Volunteer work
+
+* (EEG Monitor)(./eeg.html)
+* (Vegadrone)(./drone.html)
+
 ---
 > © 2021. B. Firat OZDEMIR. All rights reserved.
