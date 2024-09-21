@@ -158,8 +158,8 @@ Move to [here](https://github.com/JackCampbell/CodeEd/blob/master/LICENSE)
 
 ---
 
-| ---------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
-| [E-mail](mail:b.firat.ozdemir@gmail.com) | [Linkedin](https://www.linkedin.com/in/bfiratozdemir/) | [Github](https://github.com/JackCampbell) |
+| ------------------------------------------ | ------------------------------------------------------ | ----------------------------------------- |
+| [E-mail](mailto:b.firat.ozdemir@gmail.com) | [Linkedin](https://www.linkedin.com/in/bfiratozdemir/) | [Github](https://github.com/JackCampbell) |
 
 
 > © 2021. B. Firat OZDEMIR. All rights reserved.
