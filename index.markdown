@@ -18,6 +18,7 @@ This site is under construction.
 
 * [CodeEd](./codeed.html)
 * [Medica](./medica.html)
+* [Virtualize](./virtualize.html)
 * [Vortex](./vortex.html)
 * [Quake Mod](./quakemod.html)
 
