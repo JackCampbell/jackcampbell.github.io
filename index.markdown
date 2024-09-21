@@ -18,6 +18,7 @@ This site is under construction.
 
 * [CodeEd](./codeed.html)
 * [Vortex](./vortex.html)
+* [Quake Mod](./quakemod.html)
 
 # Volunteer work
 
