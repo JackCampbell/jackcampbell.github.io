@@ -1,25 +1,33 @@
 # Vortex Engine
 
-In 2012, I developed the ARB plugin available in the OpenGL library individually, and the Vortex Engine game engine to exemplify dynamic interactive shading. Interactive shading of the surfaces interacting with light on the specified map has been made. I added animation, particle detailing and light shadow volume in the game engine. With this engine I developed, __Hasan Kalyoncu University__ (former name: __Gazikent University__) became my internship application project.
+In 2011, I developed an innovative game engine named Vortex Engine for my internship program. This engine allows for real-time shading of surfaces based on light interactions within a specified environment, providing players with a more immersive and impactful experience. The system I developed utilizes dynamic lighting and real-time shading techniques to enhance the depth and realism of the scenes.
 
-It is designed as an advanced graphics engine.
+Within Vortex Engine, I integrated various features such as animation, particle effects, and light shadow volumes to enrich the visual experience. The animation system ensures smooth movement of characters and environments, while the particle effects enable realistic displays of explosions, smoke, and other visual phenomena. The light shadow volumes add a sense of depth and volume to the scenes, further enhancing the atmosphere.
 
-* Dynamic per-pixel lighting (ARB)
+This project not only helped me improve my technical skills but also served as a foundational work for my internship application. Through Vortex Engine, I gained significant experience in both software development and graphic design, making it a pivotal step in my career.
+
+* Dynamic per-pixel lighting (ARB) or Interactive Shading (Forward Shading/Deferred Shading)
 * Shadow Volume
-* Interactive texture shadows (Forward Shading/Deferred Shading)
-* Animation
-* Material, Model, Sound ve Particle Effect
-* User interactive graphical interface (GUI)
-* Simple physics engine
-* Virtual Texture and LOD system on surfaces with high texture
-* Map editor and BSP(Binary Space Partition) compiler
-* Platform support (Win32, SDL2, GLFW)
+* Material, Model, Sound
+* Skeleton-based animation
+* Models include LOD for optimization.
+* Optimized particle effects.
+* GUI (Graphic User Interface) with user interaction
+* Virtual texture for high-quality texture on surfaces
+* Map editor and BSP (Binary Space Partition) compiler
+* Platform Support (Win32, SDL2, GLFW)
 * GPU Driver (OpenGL / GLES / DirectX)
-* Physical acceleration with SSE instruction set
-
-This engine is designed as a virtual reality and simulation usage area.
+* Physics movements with SSE instructions
 
 ![Vortex Engine](assets/vortex-1.png)
+
+---
+
+B. Firat OZDEMIR - Software Engineer
+
+* [E-mail](b.firat.ozdemir@gmail.com)
+* [Linkedin](https://www.linkedin.com/in/bfiratozdemir/)
+* [Github](https://github.com/JackCampbell)
 
 ---
 > © 2021. B. Firat OZDEMIR. All rights reserved.
