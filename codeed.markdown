@@ -27,7 +27,7 @@
 
 ![icon](assets/codeed.png)
 
-CodeEd is based on powerful code editor and developer tools. It was originally designed for application and unit development. It has been developed according to the needs since 2020 based on low power consumption and simple use. _It is actively used in many projects_.
+__CodeEd__ is built on a powerful code editor and developer tools. It was originally designed for application and unit development. Since 2020, it has been developed based on user needs, focusing on low energy consumption and ease of use. Today, _it is actively used in many projects_.
 
 ![app](assets/code-main2.png)
 
@@ -38,7 +38,7 @@ This IDE application provides a number of features in the C/C++ environment.
 
 ### Auto Complete
 
-Code completion involves taking an (incomplete) source file, along with knowledge of where the user is actively editing that file, and suggesting syntactically and semantically-valid constructs that the user might want to use at that particular point in the source code.
+Code completion is a feature aimed at enhancing efficiency in the software development process. This process involves taking an (incomplete) source file while determining where the user is actively editing that file. In this context, code completion suggests syntactically and semantically valid constructs that the user may find useful at that specific point in the source code. These suggestions not only accelerate the writing of code but also help ensure that users utilize the correct syntax and structures, reducing the likelihood of errors. Thus, it enables developers to work more efficiently and minimizes time lost in complex projects.
 
 
 ![giphy](assets/code-autocomplete1.gif)
@@ -47,43 +47,39 @@ Code completion involves taking an (incomplete) source file, along with knowledg
 
 ### Code Tip
 
-It ensures that the functions in the source files in the project are called correctly and the default arguments are displayed. After an unclosed parenthesis for a function, open a small window with function parameter hints.
+This feature ensures that the functions within the source files of the project are called correctly and that default arguments are easily visible to the user. Additionally, when an unclosed parenthesis is encountered for a function, a small window opens to provide information about the function's parameters. This window helps developers by showing which arguments are expected, thereby accelerating the coding process and aiding in error prevention. As a result, users can create their code more effectively and make the most of the available functions.
 
 ![giphy](assets/code-calltip1.gif)
 
 ### Diagnostics
 
-It notifies the software developer of errors or warnings that may be made during operation. It can be displayed as a list with the diagnosis panel. This feature can be changed in the application settings.
+This feature instantly informs the software developer of any errors or warnings that may occur during the operation of the application. Errors are presented in a list format along with a diagnostic panel, allowing developers to quickly identify and resolve issues. This list is enriched with error codes and descriptions, enabling developers to more easily understand the root cause of the problem. Additionally, users can customize this feature in the application settings, adjusting the appearance and behavior of notifications to suit their needs. This ensures a more efficient development process overall.
 
 ![giphy](assets/code-diagnostic1.gif)
 
 ### Build Command Database
 
-A build database contains the arguments used to compile files in a project. For each file in the database, the working directory or the command line used for the compiler call can be queried. It ensures that the source files in the project are properly translated into C/C++ language and that the equipment works correctly on the project.
+A build database comprehensively contains the arguments used for compiling files within a project. For each file in the database, details about the working directory or command line used for the compiler call can be queried, providing developers with flexibility in managing the compilation process. This structure ensures that the source files in the project are accurately translated into C/C++ language while also ensuring that all components of the project work in harmony. Consequently, developers can proactively identify potential issues they might encounter during the compilation phase and take the necessary measures to maintain the integrity of the project.
 
 ### Serialization
 
-It serializes the system files associated with your projects, allowing faster translation of source files. You need to add the Precompiled header file to your project and activate the application settings. Each time the Precompiled header file is modified, it re-serializes the system files.
+This feature serializes the system files associated with your projects, enabling faster translation of source files. For a more efficient compilation process, you need to add the precompiled header file to your project and activate this feature in the application settings. Whenever any changes are made, the precompiled header file is updated, resulting in the re-serialization of the system files. This process significantly reduces compilation time, allowing developers to work more quickly and enhancing the overall performance of your project.
 
-### Indexer [Experimental]
+### Indexer
 
-It navigates through the source files in the project and stores the classes and functions found in a database environment. this storage data is used by the spotlight dialog and the new function declaration. The source code you are working on is checked again during document saving. This rechecking during document saving is provided in the new function declaration. Application settings can be changed in the dialog.
-
-### Spotlight
-
-Creates a database by collecting all collections on the project. It allows you to search for functions, classes and files as you work.
+This feature indexes the classes and functions found while navigating through the source files in the project in a cache environment. The indexing process enables quicker and more efficient access to the source code, allowing developers to instantly retrieve the information they need. As a result, the coding process accelerates, enabling developers to work more effectively on their projects.
 
 ![dialog](assets/code-spotlight.png)
 
 ### Code-Format
 
-Code-formatter is a tool that automatically formats C/C++ code so that developers don't have to worry about style issues during code reviews. Formatting your C/C++ code is highly recommended, it will save you and your reviewers time. The CodeEd application uses the clang-formatter API. Specific formats are available in the settings dialog, or a custom format can be created by reading the `.clang-format` file within the project.
+Code-formatter is a tool that automatically formats C/C++ code, allowing developers to focus on functionality rather than style issues during code reviews. In addition to making your code neat and readable, formatting your C/C++ code is crucial for enhancing the efficiency of the project process. This not only saves time for you but also for your reviewers. The CodeEd application utilizes the powerful clang-formatter API to carry out this task. Users can choose from specific available formats in the settings dialog or create their own custom format by reading the `.clang-format` file within the project. This ensures consistent styling across every project, thereby improving code quality.
 
 ![giphy](assets/code-format.gif)
 
 ### Debug
 
-In general, a debugger is a computer program that helps test and debug other programs. LLDB and GDB are two debuggers. CodeEd includes LLDB API.
+In general, a debugger is a computer program that assists developers in testing and debugging other programs. `LLDB` and `GDB` are two of the most popular and powerful debuggers available. CodeEd integrates the `LLDB API`, providing users with comprehensive debugging capabilities. This integration allows developers to identify and resolve issues in their code more quickly, thereby accelerating their development processes. The debugging process is crucial for enhancing software quality and improving user experience.
 
 ![giphy](assets/code-debug.gif)
 
@@ -109,14 +105,14 @@ It offers some of the capabilities that this debugger will give you over trace m
 
 ## Process
 
-It allows you to test the project you are working on after it has been compiled. This test is prompted by the user specifying the configuration. The configuration arguments and the target file specified by the macro remain the same even when the file is moved.
+This feature allows you to test the project you are working on after it has been compiled, providing significant convenience in your software development process. The testing process is initiated by the configuration specified by the user; this enables developers to quickly evaluate their projects under different scenarios. Additionally, the configuration arguments and the target file specified by the macro remain consistent, even if the project is moved, thereby providing flexibility to test the project in various environments.
 
 ![giphy](assets/code-process.gif)
 
 
 ## Design And Resource
 
-It supports application development and user-friendly form desktop design with the wxWidgets environment. This IDE was developed using this equipment.
+This feature supports application development and user-friendly desktop form design with the `wxWidgets` environment, providing developers with a powerful platform. The flexibility and functionality offered by `wxWidgets` allow users to create attractive and effective interfaces. This IDE has been developed using these powerful tools, making the application development process more efficient and enjoyable for users.
 
 ![frame](assets/code-resource.png)
 ![frame](assets/code-design.png)
@@ -129,7 +125,7 @@ CMake support allows you to build, automate, test, package and install software 
 
 ## Javascript
 
-Provides support for nodejs projects with a JavaScript runtime environment. Provides autocompletion and function signature at coding time.
+Provides support for nodejs projects with a Javascript runtime environment. Provides autocompletion and function signature at coding time.
 
 ![giphy](assets/code-node-autocompletion.gif)
 ![giphy](assets/code-node-calltip.gif)
@@ -149,29 +145,10 @@ Provides support for projects with Python3 runtime environment. Provides autocom
 * Support for `Sqlite3` format for database analysis in your project.
 * Supports `GLSL` to provide more direct control over the graphics pipeline in projects that use graphics processing.
 * `Hex Edit` support for allowing manipulation of the underlying binary data that make up a computer file.
-* Language Server Protocol (LSP) support. (experimental)
+* `Language Server Protocol` (LSP) support. (experimental)
 
 
 ![frame2](assets/code-sqlite3.png) ![frame2](assets/code-hex.png)
-
-## Plans / TODO
-
-* Image Editor
-* Sound Editor
-* Model Editor
-* Image Processing with OpenCV
-* DICOM, STL, PDB file support
-* GroundControl support
-* Makefile support
-* Emulator support
-* CSV support and Keras panel
-* GGPT Panel
-* Git Support
-
-![frame](assets/code-dicom.png)
-![frame](assets/code-image.png)
-![frame](assets/code-stl.png)
-![frame](assets/code-pdb.png)
 
 # License
 
@@ -179,11 +156,12 @@ Move to [here](https://github.com/JackCampbell/CodeEd/blob/master/LICENSE)
 
 # Contact
 
-* B. Firat OZDEMIR - Software Engineer / Mail: b.firat.ozdemir@gmail.com
+B. Firat OZDEMIR - Software Engineer
+
+* [E-mail](b.firat.ozdemir@gmail.com)
+* [Linkedin](https://www.linkedin.com/in/bfiratozdemir/)
+* [Github](https://github.com/JackCampbell)
 
 ---
 > © 2021. B. Firat OZDEMIR. All rights reserved.
-
-
-
 
