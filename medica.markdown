@@ -1,6 +1,6 @@
 # Medica
 
-The Medica application is a powerful tool for monitoring DICOM datasets from CT and MRI machines in the medical field.
+The Medica application is a powerful tool for monitoring DICOM datasets from CT (Computed Tomography) and MRI (Magnetic Resonance Imaging) machines in the medical field.
 
 ![Preview](./assets/medica-1.png)
 
