@@ -4,7 +4,7 @@
 
 This application is specifically designed for fans of Quake, making it easy to download and install mods and custom maps from the Quaddicted and Slipseer databases, and then launch the game.
 
-![Preview](./assets/quakemod.png)
+![Preview](./assets/quakemod-2.png)
 
 My application aims to enrich the Quake experience for users. With its user-friendly interface, they can explore, install, and play various mods with just a few clicks. Additionally, each mod and map is accompanied by descriptions, user reviews, and download statistics, helping users make the best choices.
 
