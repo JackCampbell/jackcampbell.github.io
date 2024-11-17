@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+<style> * { font-family: Ubuntu, "times new roman", times, roman, serif; } </style>
 # QuakeMod
 
 This application is specifically designed for fans of Quake, making it easy to download and install mods and custom maps from the Quaddicted and Slipseer databases, and then launch the game.

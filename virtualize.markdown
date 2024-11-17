@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+<style> * { font-family: Ubuntu, "times new roman", times, roman, serif; } </style>
 # Virtualize
 
 Your application offers a robust solution in the field of virtualization, built on the libvirt library. Each virtualization domain functions as an independent virtual server, allowing users to securely run different operating systems and applications in isolation. The application simplifies the management of virtual machines, enabling users to utilize resources more efficiently while providing a variety of configuration options.

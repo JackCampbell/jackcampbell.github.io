@@ -4,7 +4,7 @@
   <macros>
     <variable key="HOME_DIR" value="/Users/jack"/>
     <variable key="CPU_ARCH_NAME" value="arm64"/>
-    <variable key="OS_DESCRIPTION" value="macOS Sonoma Version 14.6.1 (Build 23G93)"/>
+    <variable key="OS_DESCRIPTION" value="macOS Sequoia Version 15.0.1 (Build 24A348)"/>
     <variable key="BUILD_PATH" value="{{PROJECT_PATH}}/{{BUILD_DIR_NAME}}"/>
     <variable key="GET_CWD" value="/Applications"/>
     <variable key="CPU_COUNT" value="12"/>
@@ -21,6 +21,7 @@
     <variable key="EMAIL_ADDRESS" value="jack@Jack-MacBook-Pro.local"/>
   </macros>
   <cvars>
+    <cvar key="editor_perspective" value=""/>
     <cvar key="design_realtime" value="0"/>
     <cvar key="cmake_generator" value=""/>
     <cvar key="cmake_toolchain" value=""/>

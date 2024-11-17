@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+<style> * { font-family: Ubuntu, "times new roman", times, roman, serif; } </style>
 # DBC2C
 
 DBC2C is an innovative software that reads DBC files and generates code for specific signals. The DBC format, widely used in the automotive industry, plays a critical role in understanding and managing in-vehicle network communication. DBC2C allows developers to quickly and efficiently obtain the signal information they need by analyzing these files.

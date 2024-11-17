@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+<style> * { font-family: Ubuntu, "times new roman", times, roman, serif; } </style>
 # Vortex Engine
 
 In 2011, I developed an innovative game engine named Vortex Engine for my internship program. This engine allows for real-time shading of surfaces based on light interactions within a specified environment, providing players with a more immersive and impactful experience. The system I developed utilizes dynamic lighting and real-time shading techniques to enhance the depth and realism of the scenes.

@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+<style> * { font-family: Ubuntu, "times new roman", times, roman, serif; } </style>
 # QuakeEd (wxWidgets)
 
 

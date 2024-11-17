@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+<style> * { font-family: Ubuntu, "times new roman", times, roman, serif; } </style>
 # Medica
 
 The Medica application is a powerful tool for monitoring DICOM datasets from CT (Computed Tomography) and MRI (Magnetic Resonance Imaging) machines in the medical field.
